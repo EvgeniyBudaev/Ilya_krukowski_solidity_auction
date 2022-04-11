@@ -1,0 +1,26 @@
+{
+  "name": "ilya_krukowski_solidity_auction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx hardhat coverage",
+    "compile": "npx hardhat clean && npx hardhat compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.9.3",
+    "solidity-coverage": "^0.7.20"
+  }
+}
